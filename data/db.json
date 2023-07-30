@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": true,
+      "item": "HTML"
+    },
+    {
+      "id": 2,
+      "checked": true,
+      "item": "CSS"
+    },
+    {
+      "id": 3,
+      "checked": true,
+      "item": "JavaScript"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "Reactjs"
+    },
+    {
+      "id": 5,
+      "checked": true,
+      "item": "SQL"
+    },
+    {
+      "id": 6,
+      "checked": false,
+      "item": "Python/Java"
+    },
+    {
+      "id": 7,
+      "checked": false,
+      "item": "Nodejs"
+    },
+    {
+      "id": 8,
+      "checked": false,
+      "item": "MongoDB"
+    },
+    {
+      "id": 9,
+      "checked": true,
+      "item": "Git/GitHub"
+    }
+  ]
+}

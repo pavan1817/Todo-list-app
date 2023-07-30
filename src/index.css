@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+header{
+  width: 100%;
+  padding: 0 10px;
+  background-color: rgb(62, 62, 148);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color:  rgb(62, 62, 148);
+  color: white;
+  padding: 5px;
+}
+
+ul{
+  width: 100%;
+  list-style: none;
+  padding: 5px;
+}
+
+.item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+  margin: 5px 0;
+  background-color: rgb(209, 198, 198);
+}
+
+.item input[type="checkbox"]{
+  text-align: center;
+  width: 2.5rem;
+  width: 48px;
+  min-width: 48px;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.item input[type="checkbox"]:focus {
+  background-color: rgb(164, 164, 185);
+}
+
+.item > label{
+  flex-grow: 1;
+}
+
+.item svg{
+  cursor: pointer;
+  color: rgb(62, 62, 148);
+}
+
+.item svg:focus,
+.item svg.hover{
+  color: rgb(209, 128, 128);
+  outline: none;
+}
+
+.add{
+  margin: 15px 0 10px 0;
+}
+
+form > input{
+  padding: 4px;
+  margin-right: 4px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+form > button{
+  padding: 4px;
+  cursor: pointer;
+  background-color: rgb(62, 62, 148);
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+form > button[type="submit"]:focus{
+  background-color:  rgb(164, 164, 185);
+}
+
+.search{
+  margin: 5px 0;
+}
